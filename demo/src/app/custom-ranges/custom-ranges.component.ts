@@ -28,7 +28,7 @@ export class CustomRangesComponent {
     ['Last 30 Days']: [dayjs().subtract(29, 'days'), dayjs()],
     ['This Month']: [dayjs().startOf('month'), dayjs().endOf('month')],
     ['Last Month']: [dayjs().subtract(1, 'month').startOf('month'), dayjs().subtract(1, 'month').endOf('month')],
-    ['Last 3 Month']: [dayjs().subtract(3, 'month').startOf('month'), dayjs().subtract(1, 'month').endOf('month')]
+    ['365 days']: [dayjs().subtract(3, 'month').startOf('month'), dayjs().subtract(1, 'month').endOf('month')]
   };
 
   constructor() {

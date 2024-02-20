@@ -11,29 +11,13 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatToolbarModule } from '@angular/material/toolbar';
-
-import { NgxDaterangepickerMd } from './../../../src/daterangepicker';
+import { NgxDaterangepickerMd } from '../../../src/daterangepicker/index';
 import { AppComponent } from './app.component';
-import { SimpleComponent } from './simple/simple.component';
-import { FullComponent } from './full/full.component';
-import { SingleDatepickerComponent } from './single-datepicker/single-datepicker.component';
 import { CustomRangesComponent } from './custom-ranges/custom-ranges.component';
-import { TimepickerComponent } from './timepicker/timepicker.component';
-import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { MatOptionModule } from '@angular/material/core';
-import { LocaleComponent } from './locale/locale.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SimpleComponent,
-    LocaleComponent,
-    FullComponent,
-    SingleDatepickerComponent,
-    CustomRangesComponent,
-    ReactiveFormComponent,
-    TimepickerComponent
-  ],
+  declarations: [AppComponent, CustomRangesComponent],
   imports: [
     BrowserModule,
     NoopAnimationsModule,

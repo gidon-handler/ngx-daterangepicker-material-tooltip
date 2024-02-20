@@ -1,66 +1,67 @@
 /*
 *  variables
 */
-$md-drppicker-color:                      inherit !default;
-$md-drppicker-bg-color:                   #fff !default;
+$md-drppicker-color: inherit !default;
+$md-drppicker-bg-color: #fff !default;
 
-$md-drppicker-cell-color:                 $md-drppicker-color !default;
-$md-drppicker-cell-border-color:          transparent !default;
-$md-drppicker-cell-bg-color:              $md-drppicker-bg-color !default;
+$md-drppicker-cell-color: $md-drppicker-color !default;
+$md-drppicker-cell-border-color: transparent !default;
+$md-drppicker-cell-bg-color: $md-drppicker-bg-color !default;
 
-$md-drppicker-cell-hover-color:           $md-drppicker-color !default;
-$md-drppicker-cell-hover-border-color:    $md-drppicker-cell-border-color !default;
-$md-drppicker-cell-hover-bg-color:        #eee !default;
+$md-drppicker-cell-hover-color: $md-drppicker-color !default;
+$md-drppicker-cell-hover-border-color: $md-drppicker-cell-border-color !default;
+$md-drppicker-cell-hover-bg-color: #eee !default;
 
-$md-drppicker-in-range-color:             #000 !default;
-$md-drppicker-in-range-border-color:      transparent !default;
-$md-drppicker-in-range-bg-color:          #dde2e4 !default;
+$md-drppicker-in-range-color: #000 !default;
+$md-drppicker-in-range-border-color: transparent !default;
+$md-drppicker-in-range-bg-color: #dde2e4 !default;
 
-$md-drppicker-active-color:               #fff !default;
-$md-drppicker-active-bg-color:            #3f51b5 !default;
-$md-drppicker-active-border-color:        transparent !default;
+$md-drppicker-active-color: #fff !default;
+$md-drppicker-active-bg-color: #3f51b5 !default;
+$md-drppicker-active-border-color: transparent !default;
 
-$md-drppicker-unselected-color:           #999 !default;
-$md-drppicker-unselected-border-color:    transparent !default;
-$md-drppicker-unselected-bg-color:        #fff !default;
+$md-drppicker-unselected-color: #999 !default;
+$md-drppicker-unselected-border-color: transparent !default;
+$md-drppicker-unselected-bg-color: #fff !default;
 
-$md-drppicker-width:          278px !default;
-$md-drppicker-width-double:          auto !default;
-$md-drppicker-border-color:   #ccc !default;
+$md-drppicker-width: 278px !default;
+$md-drppicker-width-double: auto !default;
+$md-drppicker-border-color: #ccc !default;
 
-$md-drppicker-calendar-margin:              4px !default;
-$md-drppicker-calendar-bg-color:            $md-drppicker-bg-color !default;
+$md-drppicker-calendar-margin: 4px !default;
+$md-drppicker-calendar-bg-color: $md-drppicker-bg-color !default;
 
-$md-drppicker-calendar-border-size:         1px !default;
-$md-drppicker-calendar-border-color:        $md-drppicker-bg-color !default;
-$md-drppicker-calendar-border-radius:       4px !default;
+$md-drppicker-calendar-border-size: 1px !default;
+$md-drppicker-calendar-border-color: $md-drppicker-bg-color !default;
+$md-drppicker-calendar-border-radius: 4px !default;
 
-$md-drppicker-cell-size:           20px !default;
-$md-drppicker-cell-width:          $md-drppicker-cell-size !default;
-$md-drppicker-cell-height:         $md-drppicker-cell-size !default;
+$md-drppicker-cell-size: 20px !default;
+$md-drppicker-cell-width: $md-drppicker-cell-size !default;
+$md-drppicker-cell-height: $md-drppicker-cell-size !default;
 
-$md-drppicker-cell-border-radius:  $md-drppicker-calendar-border-radius !default;
-$md-drppicker-cell-border-size:    1px !default;
+$md-drppicker-cell-border-radius: $md-drppicker-calendar-border-radius !default;
+$md-drppicker-cell-border-size: 1px !default;
 
-$md-drppicker-control-height:               30px !default;
-$md-drppicker-control-line-height:          $md-drppicker-control-height !default;
-$md-drppicker-control-color:                #555 !default;
+$md-drppicker-control-height: 30px !default;
+$md-drppicker-control-line-height: $md-drppicker-control-height !default;
+$md-drppicker-control-color: #555 !default;
 
-$md-drppicker-control-border-size:          1px !default;
-$md-drppicker-control-border-color:         #ccc !default;
-$md-drppicker-control-border-radius:        4px !default;
+$md-drppicker-control-border-size: 1px !default;
+$md-drppicker-control-border-color: #ccc !default;
+$md-drppicker-control-border-radius: 4px !default;
 
-$md-drppicker-control-active-border-size:   1px !default;
-$md-drppicker-control-active-border-color:  #08c !default;
+$md-drppicker-control-active-border-size: 1px !default;
+$md-drppicker-control-active-border-color: #08c !default;
 $md-drppicker-control-active-border-radius: $md-drppicker-control-border-radius !default;
 
-$md-drppicker-control-disabled-color:       #ccc !default;
+$md-drppicker-control-disabled-color: #ccc !default;
 // Select
 $select-border: 1px solid #f2f2f2 !default;
 $select-background: rgba(255, 255, 255, 0.90) !default;
 $select-padding: 5px !default;
 $select-radius: 2px !default;
 $input-height: 3rem !default;
+
 /*
 * styles
 */
@@ -78,15 +79,18 @@ $input-height: 3rem !default;
   font-size: 14px;
   background-color: #ffffff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+
   &.double {
     width: $md-drppicker-width-double;
   }
+
   &.inline {
     position: relative;
     display: inline-block;
   }
 
-  &:before, &:after {
+  &:before,
+  &:after {
     position: absolute;
     display: inline-block;
 
@@ -115,7 +119,9 @@ $input-height: 3rem !default;
   }
 
   &.single {
-    .ranges, .calendar {
+
+    .ranges,
+    .calendar {
       float: none;
     }
   }
@@ -125,61 +131,75 @@ $input-height: 3rem !default;
     transition: all 0.1s ease-in-out;
     transform-origin: 0 0;
     -webkit-touch-callout: none;
-      -webkit-user-select: none;
-        -moz-user-select: none;
-          -ms-user-select: none;
-              user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
     &.drops-up-left {
       transform-origin: 100% 100%;
     }
+
     &.drops-up-right {
       transform-origin: 0 100%;
     }
+
     &.drops-down-left {
       transform-origin: 100% 0;
     }
+
     &.drops-down-right {
       transform-origin: 0 0;
     }
+
     &.drops-down-center {
       transform-origin: 50%% 0;
     }
+
     &.drops-up-center {
       transform-origin: 50%% 100%;
     }
+
     .calendar {
       display: block;
     }
   }
+
   &.hidden {
     transition: all 0.1s ease;
     transform: scale(0);
     transform-origin: 0 0;
     cursor: default;
     -webkit-touch-callout: none;
-      -webkit-user-select: none;
-        -moz-user-select: none;
-          -ms-user-select: none;
-              user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
     &.drops-up-left {
       transform-origin: 100% 100%;
     }
+
     &.drops-up-right {
       transform-origin: 0 100%;
     }
+
     &.drops-down-left {
       transform-origin: 100% 0;
     }
+
     &.drops-down-right {
       transform-origin: 0 0;
     }
+
     &.drops-down-center {
       transform-origin: 50% 0;
     }
+
     &.drops-up-center {
       transform-origin: 50% 100%;
     }
-    
+
     .calendar {
       display: none;
     }
@@ -196,11 +216,13 @@ $input-height: 3rem !default;
       }
     }
 
-    th, td {
+    th,
+    td {
       padding: 0;
       white-space: nowrap;
       text-align: center;
       min-width: 32px;
+
       span {
         pointer-events: none;
       }
@@ -218,10 +240,13 @@ $input-height: 3rem !default;
     width: 100%;
     margin: 0;
   }
+
   th {
     color: #988c8c;
   }
-  td, th {
+
+  td,
+  th {
     text-align: center;
     width: $md-drppicker-cell-width;
     height: $md-drppicker-cell-height;
@@ -242,10 +267,12 @@ $input-height: 3rem !default;
         opacity: .8;
         transition: background-color .2s ease;
         border-radius: 2em;
+
         &:hover {
           margin: 0;
         }
       }
+
       &.next {
         transform: rotate(180deg);
         display: block;
@@ -256,11 +283,13 @@ $input-height: 3rem !default;
         opacity: .8;
         transition: background-color .2s ease;
         border-radius: 2em;
+
         &:hover {
           margin: 0;
           transform: rotate(180deg);
         }
       }
+
       &:hover {
         background-color: $md-drppicker-cell-hover-bg-color;
         border-color: $md-drppicker-cell-hover-border-color;
@@ -286,14 +315,19 @@ $input-height: 3rem !default;
   }
 
   td {
-        margin: .25em 0;
-        opacity: .8;
-        transition: background-color .2s ease;
-        border-radius: 2em;
-        transform: scale(1);
-        transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    margin: .25em 0;
+    opacity: .8;
+    transition: background-color .2s ease;
+    border-radius: 2em;
+    transform: scale(1);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+
     &.off {
-      &, &.in-range, &.start-date, &.end-date {
+
+      &,
+      &.in-range,
+      &.start-date,
+      &.end-date {
         background-color: $md-drppicker-unselected-bg-color;
         border-color: $md-drppicker-unselected-border-color;
         color: $md-drppicker-unselected-color;
@@ -326,7 +360,9 @@ $input-height: 3rem !default;
     &.active {
       transition: background 300ms ease-out;
       background: rgba(0, 0, 0, 0.1);
-      &, &:hover {
+
+      &,
+      &:hover {
         background-color: $md-drppicker-active-bg-color;
         border-color: $md-drppicker-active-border-color;
         color: $md-drppicker-active-color;
@@ -341,7 +377,8 @@ $input-height: 3rem !default;
   }
 
   // disabled controls
-  td, option {
+  td,
+  option {
     &.disabled {
       color: #999;
       cursor: not-allowed;
@@ -356,6 +393,7 @@ $input-height: 3rem !default;
     background-position-x: right;
     width: 50px;
     background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDI1NSAyNTUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI1NSAyNTU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8ZyBpZD0iYXJyb3ctZHJvcC1kb3duIj4KCQk8cG9seWdvbiBwb2ludHM9IjAsNjMuNzUgMTI3LjUsMTkxLjI1IDI1NSw2My43NSAgICIgZmlsbD0iIzk4OGM4YyIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=);
+
     select {
       display: inline-block;
       background-color: $select-background;
@@ -364,14 +402,17 @@ $input-height: 3rem !default;
       border: $select-border;
       border-radius: $select-radius;
       height: $input-height;
-      &.monthselect, &.yearselect {
+
+      &.monthselect,
+      &.yearselect {
         font-size: 12px;
         padding: 1px;
         height: auto;
         margin: 0;
         cursor: default;
       }
-      &.hourselect, 
+
+      &.hourselect,
       &.minuteselect,
       &.secondselect,
       &.ampmselect {
@@ -388,17 +429,17 @@ $input-height: 3rem !default;
       &.yearselect {
         cursor: pointer;
         opacity: 0;
-        position: absolute; 
-        top: 0; 
-        left: 0; 
+        position: absolute;
+        top: 0;
+        left: 0;
         margin: 0;
         padding: 0;
       }
     }
   }
 
-  th.month > div {
-    position: relative; 
+  th.month>div {
+    position: relative;
     display: inline-block;
   }
 
@@ -407,8 +448,10 @@ $input-height: 3rem !default;
     margin: 4px auto 0 auto;
     line-height: 30px;
     position: relative;
+
     .select {
       display: inline;
+
       .select-item {
         display: inline-block;
         width: auto;
@@ -419,7 +462,8 @@ $input-height: 3rem !default;
         font-size: 18px;
         border-radius: 0;
         border: none;
-        border-bottom: 1px solid rgba(0,0,0, 0.12);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+
         /* Remove focus */
         &:after {
           position: absolute;
@@ -435,11 +479,13 @@ $input-height: 3rem !default;
           border-top: 6px solid rgba(0, 0, 0, 0.12);
           pointer-events: none;
         }
+
         &:focus {
           outline: none;
         }
+
         .select-label {
-          color: rgba(0,0,0, 0.26);
+          color: rgba(0, 0, 0, 0.26);
           font-size: 16px;
           font-weight: normal;
           position: absolute;
@@ -451,7 +497,7 @@ $input-height: 3rem !default;
       }
     }
   }
-  
+
   .calendar-time select.disabled {
     color: #ccc;
     cursor: not-allowed;
@@ -479,22 +525,27 @@ $input-height: 3rem !default;
     position: relative;
     padding: 0 30px 0 0;
 
-    i, svg {
+    i,
+    svg {
       position: absolute;
       left: 8px;
       top: 8px;
     }
   }
+
   &.rtl {
     .label-input {
       padding-right: 28px;
       padding-left: 6px;
     }
-    .md-drppicker_input i,  .md-drppicker_input svg{
+
+    .md-drppicker_input i,
+    .md-drppicker_input svg {
       left: auto;
       right: 8px;
     }
   }
+
   /* ranges */
   .show-ranges {
     .drp-calendar.left {
@@ -506,13 +557,16 @@ $input-height: 3rem !default;
     float: none;
     text-align: left;
     margin: 0;
+
     ul {
       list-style: none;
       margin: 0 auto;
       padding: 0;
       width: 100%;
+
       li {
         font-size: 12px;
+
         button {
           padding: 8px 12px;
           width: 100%;
@@ -520,18 +574,33 @@ $input-height: 3rem !default;
           border: none;
           text-align: left;
           cursor: pointer;
+
           &.active {
             background-color: #3f51b5;
             color: #fff;
           }
+
           &[disabled] {
             opacity: 0.3;
           }
+
           &:active {
             background: transparent;
           }
+
+          &.hasTT::after {
+            content: "!";
+            background: #8f8f8f;
+            padding: 0px 6px;
+            border-radius: 50%;
+            color: white;
+            font-weight: bold;
+            position: relative;
+            top: -4px;
+          }
         }
       }
+
       li:hover {
         background-color: #eee;
       }
@@ -543,7 +612,7 @@ $input-height: 3rem !default;
       margin-top: 8px;
     }
   }
-    
+
   [hidden] {
     display: none;
   }
@@ -553,6 +622,7 @@ $input-height: 3rem !default;
     text-align: right;
     margin: 0 5px 5px 0;
   }
+
   .btn {
     position: relative;
     overflow: hidden;
@@ -569,16 +639,21 @@ $input-height: 3rem !default;
     text-transform: uppercase;
     line-height: 36px;
     border: none;
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
       background-color: #3f51b5;
     }
-    & > * {
+
+    &>* {
       position: relative;
     }
+
     & span {
       display: block;
       padding: 12px 24px;
     }
+
     &:before {
       content: "";
       position: absolute;
@@ -596,6 +671,7 @@ $input-height: 3rem !default;
       -o-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
     }
+
     &:active {
       &:before {
         width: 120%;
@@ -603,17 +679,21 @@ $input-height: 3rem !default;
         transition: width .2s ease-out, padding-top .2s ease-out;
       }
     }
+
     &:disabled {
-      opacity:0.5;
+      opacity: 0.5;
     }
+
     &.btn-default {
       color: black;
       background-color: gainsboro;
     }
   }
+
   .clear {
     box-shadow: none;
     background-color: #ffffff !important;
+
     svg {
       color: #eb3232;
       fill: currentColor;
@@ -634,7 +714,8 @@ $input-height: 3rem !default;
     &.ltr {
       direction: ltr;
       text-align: left;
-      .calendar{
+
+      .calendar {
         &.left {
           clear: left;
           /*margin-right: 1.5em;*/
@@ -660,6 +741,7 @@ $input-height: 3rem !default;
       .left .md-drppicker_input {
         padding-right: 35px;
       }
+
       .right .md-drppicker_input {
         padding-right: 35px;
       }
@@ -668,14 +750,17 @@ $input-height: 3rem !default;
         padding-right: 12px;
       }
 
-      .ranges, .calendar {
+      .ranges,
+      .calendar {
         float: left;
       }
     }
+
     &.rtl {
       direction: rtl;
       text-align: right;
-      .calendar{
+
+      .calendar {
         &.left {
           clear: right;
           margin-left: 0;
@@ -706,16 +791,18 @@ $input-height: 3rem !default;
         padding-left: 12px;
       }
 
-      .ranges, .calendar {
+      .ranges,
+      .calendar {
         text-align: right;
         float: right;
       }
     }
   }
+
   .drp-animate {
     transform: translate(0);
     transition: transform .2s ease,
-                opacity .2s ease;
+      opacity .2s ease;
 
     &.drp-picker-site-this {
       transition-timing-function: linear;
@@ -738,11 +825,13 @@ $input-height: 3rem !default;
     .ranges {
       width: auto;
     }
+
     &.ltr {
       .ranges {
         float: left;
       }
     }
+
     &.rtl {
       .ranges {
         float: right;
@@ -754,4 +843,3 @@ $input-height: 3rem !default;
     }
   }
 }
-

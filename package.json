@@ -1,6 +1,6 @@
 {
-  "name": "ngx-daterangepicker-material",
-  "version": "6.0.4",
+  "name": "ngxt-daterangepicker-material",
+  "version": "1.0.4",
   "description": "Angular 9 and 10 date range picker (with material design theme)",
   "keywords": [
     "angular2",
@@ -24,7 +24,7 @@
     "dayjs",
     "picker"
   ],
-  "homepage": "https://github.com/fetrarij/ngx-daterangepicker-material",
+  "homepage": "https://github.com/gidon-handler/ngx-daterangepicker-material-tooltip",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -41,11 +41,7 @@
     "copy:schematics": "cpr schematics/dist dist/schematics && cp ./schematics/collection.json ./dist/schematics && cp ./schematics/ng-add/schema.json ./dist/schematics/ng-add",
     "postbuild": "npm run build:schematics && npm run copy:schematics"
   },
-  "author": "Fetrarijaona R.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fetrarij/ngx-daterangepicker-material.git"
-  },
+  "author": "GH",
   "peerDependencies": {
     "dayjs": "^1.11.4"
   },

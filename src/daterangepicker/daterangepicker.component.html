@@ -16,10 +16,11 @@
             <ul>
                 <li *ngFor="let range of rangesArray">
                     <button
+                        [title]="range.includes('365') ? 'Applicable for Supplies, Impressions and Sheets counters' : ''"
                         type="button"
                         (click)="clickRange($event, range)"
                         [disabled]="disableRange(range)"
-                        [ngClass]="{ active: range === chosenRange }">
+                        [ngClass]="{ active: range === chosenRange, hasTT: range.includes('365')}">
                         {{ range }}
                     </button>
                 </li>
