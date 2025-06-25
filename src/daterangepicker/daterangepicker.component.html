@@ -16,7 +16,7 @@
             <ul>
                 <li *ngFor="let range of rangesArray">
                     <button
-                        [title]="range.includes('365') ? 'Applicable for Supplies, Impressions and Sheets counters' : ''"
+                        [title]="range.includes('365') ? 'Applicable for Supplies' : ''"
                         type="button"
                         (click)="clickRange($event, range)"
                         [disabled]="disableRange(range)"
